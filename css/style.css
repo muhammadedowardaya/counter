@@ -74,3 +74,10 @@ main .pesan {
     border-radius: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+    header {
+        height:50vh;
+        background-size: 30vh;
+    }
+}
