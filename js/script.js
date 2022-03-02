@@ -32,11 +32,19 @@ const kurang = document.querySelectorAll('header .button button')[0];
 const tambah = document.querySelectorAll('header .button button')[1];
 
 function isiPesan() {
+    let sapa;
+    if(user.gender === 'pria'){
+        sapa = "Tamvans";
+    }else if(user.gender === 'wanita'){
+        sapa = "Cangtip";
+    }else{
+        sapa = "Hey!";
+    }
     switch (counter.get()) {
         case -1:
             counter.increment();
             nilai.textContent = 0;
-            pesan.textContent = `Nanaonan maneh ${user.gender === 'pria' ? 'tamvan' : 'Cangtip'}, moal bisa kana mines! wkwkwkwkwk`;
+            pesan.textContent = `Nanaonan maneh ${sapa}, moal bisa kana mines! wkwkwkwkwk`;
             break;
         case 0:
             pesan.textContent = "Nol";
