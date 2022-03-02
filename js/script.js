@@ -32,7 +32,7 @@ const kurang = document.querySelectorAll('header .button button')[0];
 const tambah = document.querySelectorAll('header .button button')[1];
 
 function isiPesan() {
-    let sapa;
+    let sapa = "";
     if(user.gender === 'pria'){
         sapa = "Tamvans";
     }else if(user.gender === 'wanita'){
@@ -122,7 +122,7 @@ Swal.fire({
         Swal.fire({
             title: 'Hai Tamvans :v',
             text: 'Tapi lebih tamvan ice bear sih',
-            imageUrl: '../img/tamvans.png',
+            imageUrl: 'https://muhammadedowardaya.github.io/counter/img/tamvans.png',
             showCancelButton: false,
             confirmButtonColor: '#3085d6',
             confirmButtonText: 'Sa Ae Bhujank',
@@ -131,7 +131,7 @@ Swal.fire({
         user.gender('wanita');
         Swal.fire({
             title: 'Hai Cangtip :)',
-            imageUrl: '../img/cangtip.png',
+            imageUrl: 'https://muhammadedowardaya.github.io/counter/img/cangtip.png',
             showCancelButton: false,
             confirmButtonColor: '#3085d6',
             confirmButtonText: 'Makasih, Ini udah bawaan lahir',
@@ -141,7 +141,7 @@ Swal.fire({
         Swal.fire({
             title: 'Tch! Ice bear tydak suka!',
             text: "kenapa kau tidak memilihnya? Ice bear harap kau bukan g** awokwokwk",
-            imageUrl: '../img/tolak.png',
+            imageUrl: 'https://muhammadedowardaya.github.io/counter/img/tolak.png',
             showCancelButton: false,
             confirmButtonColor: '#3085d6',
             confirmButtonText: 'Urraaaa',
