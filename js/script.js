@@ -141,7 +141,7 @@ Swal.fire({
         Swal.fire({
             title: 'Tch! Ice bear tydak suka!',
             text: "kenapa kau tidak memilihnya? Ice bear harap kau bukan g** awokwokwk",
-            imageUrl: '../img/tolak.png',
+            imageUrl: 'https://github.com/muhammadedowardaya/counter/blob/master/js',
             showCancelButton: false,
             confirmButtonColor: '#3085d6',
             confirmButtonText: 'Urraaaa',
