@@ -73,11 +73,14 @@ const Counter = {
     },
 };
 
-const User = {
+class Person {
     gender(gender) {
         this.gender = gender;
-    },
-};
+    }
+}
+
+const User = new Person();
+
 
 const counterNumber = document.querySelector("counter-number");
 
