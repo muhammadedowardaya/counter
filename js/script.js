@@ -91,7 +91,7 @@ function isiPesan() {
     let sapa = "";
     if (User.gender === "pria") {
         sapa = "Tamvans";
-    } else if (user.gender === "wanita") {
+    } else if (User.gender === "wanita") {
         sapa = "Cangtip";
     } else {
         sapa = "Hey!";
