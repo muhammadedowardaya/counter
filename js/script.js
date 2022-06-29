@@ -57,12 +57,6 @@ class CounterNumber extends HTMLElement {
 
 customElements.define("counter-number", CounterNumber);
 
-const Person = {
-    gender(gender) {
-        this.gender = gender;
-    },
-};
-
 const Counter = {
     number: 0,
 
