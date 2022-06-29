@@ -61,6 +61,10 @@ figure {
 	justify-content: center;
 	align-items: center;
 	background-color: #fff;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
 }
 
 .main-counter h1 {
