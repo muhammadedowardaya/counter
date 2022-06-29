@@ -35,7 +35,7 @@ class CounterNumber extends HTMLElement {
                 </header>
                 <figure>
                     <div class="main-counter">
-                        <h3>${this._number}</h3>
+                        <h1>${this._number}</h1>
                     </div>
                     <div class="main-action">
                         <button class="main-button__minus">-</button>
